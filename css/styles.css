@@ -62,7 +62,7 @@ a:hover {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px 0;
+  /* padding: 50px 0 20px 0; */
 }
 .programer{
   font-weight: normal;
@@ -83,22 +83,61 @@ a:hover {
   top: 40px;
 }
 
+.socials-git {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 2%;
+}
+.socials-linkdin {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 2%;
+}
+
+
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
+.skill-programming {
+  text-align: left;
+}
+.skill-development {
+  text-align: right;
+}
 
-.computer-image {
-   width: 25%;
+.skill-projects {
+  text-align: left;
+}
+
+.project-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.programming-image {
+   width: 20%;
+   /* height: 10%; */
    float: left;
    margin-right: 30px;
+   /* border-radius: 75px; */
  }
 
-.chilli-image {
-   width: 25%;
+.development-image {
+   width: 20%;
    float: right;
    margin-left: 20px;
+ }
+
+ .project-image {
+   width: 20%;
+   float: left;
+   margin-right: 30px;
+   /* border-radius: 10px; */
  }
 
 .contact-message {
