@@ -96,6 +96,14 @@ a:hover {
   width: 2%;
 }
 
+.socials-kaggle {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+  width: 2%;
+}
+
+
 
 .skill-row {
   width: 50%;
