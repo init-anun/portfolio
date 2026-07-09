@@ -110,15 +110,19 @@ a:hover {
   margin: 100px auto 100px auto;
   text-align: left;
 }
-.skill-programming {
+.skill-backend {
   text-align: left;
 }
-.skill-development {
+.skill-dsml {
   text-align: right;
 }
 
 .skill-projects {
   text-align: left;
+}
+
+.skill-publications {
+  text-align: right;
 }
 
 .project-row {
@@ -148,6 +152,12 @@ a:hover {
    /* border-radius: 10px; */
  }
 
+ .publications-image {
+   width: 25%;
+   float: right;
+   margin-left: 30px;
+   /* border-radius: 10px; */
+ }
 .contact-message {
   width: 40%;
   margin: 40px auto 60px auto;
