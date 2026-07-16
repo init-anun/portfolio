@@ -112,17 +112,21 @@ a:hover {
 }
 .skill-backend {
   text-align: left;
+  display: flex;
 }
 .skill-dsml {
   text-align: right;
+  display: flex;
 }
 
 .skill-projects {
   text-align: left;
+  display: flex;
 }
 
 .skill-publications {
   text-align: right;
+  align-items: right;
 }
 
 .project-row {
@@ -137,27 +141,35 @@ a:hover {
    float: left;
    margin-right: 30px;
    /* border-radius: 75px; */
+   margin-top: 3.5rem;
  }
 
 .development-image {
    width: 20%;
    float: right;
    margin-left: 20px;
+      margin-top: 3.5rem;
  }
 
- .project-image {
-   width: 25%;
+.project-image {
+   width: 20%;
    float: left;
    margin-right: 30px;
-   /* border-radius: 10px; */
- }
+   margin-top: 3.5rem;
+}
 
- .publications-image {
-   width: 25%;
-   float: right;
-   margin-left: 30px;
-   /* border-radius: 10px; */
- }
+.publications-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 3.5rem;
+  /* border-radius: 10px; */
+}
+
+.profile-image {
+  width: 10%;
+  border-radius: 90px;
+}
 .contact-message {
   width: 40%;
   margin: 40px auto 60px auto;
